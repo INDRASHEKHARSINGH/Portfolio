@@ -13,7 +13,7 @@ I am a passionate developer focused on building scalable, efficient, and real-wo
 ## Tech Stack
 	•	Languages: JavaScript, 
 	•	Frontend: React.js, Tailwind CSS
-	•	Tools & Platforms: Git, VS Code
+	•	Tools & Platforms: Git, VS Code, EmailJS
 
 ## Objective
 
