@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+.footer-bg{
+    background: linear-gradient(
+    180deg,
+     rgb(92, 183, 244),
+     rgb(49, 142, 218),
+     rgb(26, 143, 221)
+
+     
+  );
+  
+
+}

@@ -1,0 +1,103 @@
+@import "tailwindcss";
+
+.bg-nav{
+  background: linear-gradient(
+    180deg,
+     rgb(92, 183, 244),
+     rgb(49, 142, 218),
+     rgb(13, 107, 169)
+
+     
+  );
+
+}
+
+.navbar{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:15px 10%;
+  position:fixed;
+  top:0;
+  right:0;
+  left:0;
+  z-index:+1000;
+  box-shadow:0 5px 10px rgba(0,0,0,0.6);
+  
+}
+
+.logo{
+  font-size:22px;
+  font-weight:bold;
+  
+}
+
+
+
+.Indra {
+  color: white;
+}
+
+.Dev {
+  color: black;
+}
+
+.nav-links{
+  display:flex;
+  list-style:none;
+  gap:30px;
+
+}
+
+.nav-links a{
+  text-decoration:none;
+  color:black;
+  font-weight:500;
+  transition:0.3s;
+}
+
+.nav-links a:hover{
+  color:white;
+}
+
+.menu-icon{
+  display:none;
+  font-size:26px;
+  cursor:pointer;
+}
+
+/* Mobile */
+
+@media(max-width:768px){
+
+  .menu-icon{
+    display:block;
+  }
+
+  .nav-links{
+    position: absolute;
+    z-index: 1;
+    top:68px;
+    right:-100%;
+    flex-direction:column;
+    background: linear-gradient(
+    180deg,
+     rgb(92, 183, 244),
+     rgb(49, 142, 218),
+     rgb(13, 107, 169)
+
+     
+    );
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width:120px;
+    padding:5px;
+    transition:0.3s;
+    box-shadow:0 10px 10px rgba(0, 0, 0, 0.361);
+  }
+
+  .nav-links.active{
+    right:0;
+  }
+
+}
